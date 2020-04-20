@@ -49,9 +49,7 @@
 
   .overlay {
     position: absolute;
-    color: white;
-    background-color: black;
-    top: 85%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
