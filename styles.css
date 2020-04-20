@@ -1,6 +1,6 @@
   body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-image: url(assets/background.jpg);
   }
   
   nav{
@@ -9,12 +9,19 @@
   }
  
   main {
-    margin: 70px 0;
-    background-color: black;
-    padding: 10px;
-
-
+    margin: 70px;
+    background-color:white;
+    padding: 50px;
+    border-radius: 8px;
+       
   }
+ 
+  img {
+    border-radius: 8px;
+    max-width: 175px;
+    max-height: 300px
+  }
+
   
     #about-image {
     display: block;
