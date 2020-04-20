@@ -27,14 +27,14 @@
 About Page
 
 
-![About1](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/AboutMe.PNG?raw=true"About Page")
+![About1](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/AboutMe.PNG?raw=true "About Page")
 
 
 
 Portfolio Page
 
 
-![Portfolio](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/Portfolio.PNG?raw=true"Portfolio Page")
+![Portfolio](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/Portfolio.PNG?raw=true "Portfolio Page")
 
 
 
