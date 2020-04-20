@@ -3,12 +3,13 @@
 
 # CONCEPT 
 - Description 
-    - Develop a responsive portfolio that will render well with different screen sizes taking into account the different type of devices which may try to access the site.  The site will meet the following criteria: possess a NAVBAR, responsive layout and responsive images.
+    - Develop a responsive portfolio that will render well with different screen sizes taking into account the different type of devices which may try to access the site.  The site will meet the following criteria: possess a NAVBAR, responsive layout and responsive images. Incorporate links to github, linkedin, and resume.
 
 # TECHNOLOGIES USED
 - HTML
 - CSS
 - Bootstrap
+- FontAwesome
 
 # FUTURE DEVELOPMENT
 - Add information describing myself on profile page
@@ -18,30 +19,30 @@
 - have contact page actually send message
 
 # LINKS
-- 
+- https://github.com/ramsaygonzalez/Portfolio
+- https://ramsaygonzalez.github.io/Portfolio/
 
 # SCREENSHOTS
-
 
 About Page
 
 
-![About1]("About Page")
+![About1](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/AboutMe.PNG?raw=true"About Page")
 
 
 
 Portfolio Page
 
 
-![Portfolio1](https://github.com/ramsaygonzalez/ResponsivePortfolio/blob/master/portfolio1.PNG?raw=true "Portfolio Page")
-![Portfolio2](https://github.com/ramsaygonzalez/ResponsivePortfolio/blob/master/portfolio2.PNG?raw=true "Portfolio Page")
+![Portfolio](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/Portfolio.PNG?raw=true"Portfolio Page")
+
 
 
 Contact Page
 
 
-![Contact1](https://github.com/ramsaygonzalez/ResponsivePortfolio/blob/master/contact1.PNG?raw=true "Contact Page")
-![Contact2](https://github.com/ramsaygonzalez/ResponsivePortfolio/blob/master/contact2.PNG?raw=true "Contact Page")
+![Contact](https://github.com/ramsaygonzalez/Portfolio/blob/master/assets/ContactMe.PNG?raw=true "Contact Page")
+
 
 
 
