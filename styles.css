@@ -1,16 +1,21 @@
   body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(assets/background.jpg);
+      background-image: url('assets/background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      background-size: cover;
   }
   
   nav{
     position: fixed;  
-    background-color: lightgrey;
+    background-color: lightslategray;;
   }
  
   main {
     margin: 70px;
-    background-color:white;
+    background-color:lightslategray;
     padding: 50px;
     border-radius: 8px;
        
@@ -25,7 +30,7 @@
   
     #about-image {
     display: block;
-    float: left;
+    float: right;
     width: 35%;
     height: auto;
     margin: 0 10px  10px 0;
@@ -39,8 +44,8 @@
     background-color: lightgrey;
   }
   
-  #portfolio-images img{
-    float: left;
+  img{
+    
     
     max-width: 100%;
     height: auto;
@@ -53,3 +58,42 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  .card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+  }
+ 

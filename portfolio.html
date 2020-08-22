@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html">Ramsay Gonzalez</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -30,7 +29,7 @@
           <a class="nav-link" href="index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link active" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -38,49 +37,125 @@
       </ul>
     </div>
   </nav>
+  <main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>Featued Projects</h1>
+        <p class="lead text-muted">Below are some of the assignments completed at UPENN Fullstack Development Coding
+          Bootcamp.</p>
+      </div>
+    </section>
+    <br />
+    <div class="album py-5 bg-light">
+      <div class="container">
 
-
-
-  <main class="container">
-    <div class="col-md-12">
-      <div class="card" style="width: auto;">
-        <div class="card-body" id="portfolio-images" style="background-color: lightgrey;">
-          <h4 class="card-title">About Me</h4>
-          <hr />
-          <div class="row">
-            <div class="col-md-6">
-              <img src="assets/MovieMe.png" alt="" style="width: max-content; height: 350px; padding: 2%;">
-              <div class="overlay">
-                <div class="overlay" style="width: max-content;">
-                  <div class="card" style="background-color: black;">
-                    <div class="card-body">
-                      <a href="https://ramsaygonzalez.github.io/MovieMe/" class="card-link"
-                        style="color: white;">MovieMe Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <img src="assets/WeatherDashboard.PNG" alt="" style="width: max-content; height: 350px; padding: 2%;">
-              <div class="overlay" style="width: max-content;">
-                <div class="card" style="background-color: black;">
-                  <div class="card-body">
-                    <a href="https://ramsaygonzalez.github.io/WeatherDashboard/" class="card-link"
-                      style="color: white;">Weather Dashboard</a>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-body">
+                <img src="assets/Project1.png" alt="Project 1: Movie ME" class="thumbnail">
+                <p class="card-text">
+                <h4>Project 1: MovieMe</h4> Search for your favorite movies! Get movie details and trailers.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://ravalash.github.io/MovieMe/" class="btn btn-primary btn-sm" role="button"
+                      aria-pressed="true">Demo</a>
+                    <a href="https://github.com/ramsaygonzalez/MovieMe" class="btn btn-secondary btn-sm" role="button"
+                      aria-pressed="true">GitHub</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img src="assets/Password Generator.PNG" alt="" style="width: max-content; height: 350px; padding: 2%;">
-              <div class="overlay">
-                <div class="card" style="background-color: black;">
-                  <div class="card-body">
-                    <a href="https://ramsaygonzalez.github.io/PasswordGenerator/" class="card-link"
-                      style="color: white;">Password Generator</a>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+
+              <div class="card-body">
+                <img src="assets/Project2.PNG" alt="Project 2: Quiz Generator" class="thumbnail">
+                <p class="card-text">
+                <h4>Project 2: Quiz Generator</h4> Search for your favorite movies! Get movie details and trailers.
+                </p>
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://project-2-quiz-generator.herokuapp.com/" class="btn btn-primary btn-sm"
+                      role="button" aria-pressed="true">Demo</a>
+                    <a href="https://github.com/ramsaygonzalez/project-2-quiz-generator"
+                      class="btn btn-secondary btn-sm" role="button" aria-pressed="true">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/CodeQuiz.PNG" alt="Homework 4: Code Quiz" class="thumbnail">
+              <div class="card-body">
+                <h3>HW 4: Code Quiz</h3> Search for your favorite movies! Get movie details and trailers.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://ramsaygonzalez.github.io/codequiz/" class="btn btn-primary btn-sm" role="button"
+                      aria-pressed="true">Demo</a>
+                    <a href="https://github.com/ramsaygonzalez/codequiz" class="btn btn-secondary btn-sm" role="button"
+                      aria-pressed="true">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/WeatherDashboard.png" alt="Homework 6: Weather Dashboard" class="thumbnail">
+              <div class="card-body">
+                <h3>HW 6: Weather Dashboard</h3> Weather dashboard that runs in the browser, featuring dynamically
+                updated
+                HTML and CSS from the openweathermap api.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://ramsaygonzalez.github.io/WeatherDashboard/" class="btn btn-primary btn-sm"
+                      role="button" aria-pressed="true">Demo</a>
+                    <a href="https://github.com/ramsaygonzalez/WeatherDashboard" class="btn btn-secondary btn-sm"
+                      role="button" aria-pressed="true">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/NoteTaker.PNG" alt="Homework 11: Note Taker" class="thumbnail">
+              <div class="card-body">
+                <h3>HW 11: Note Taker</h3> Application uses express backend to save, retrieve and delete note data from
+                a JSON
+                file.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://hw11-note-taker.herokuapp.com/" class="btn btn-primary btn-sm" role="button"
+                      aria-pressed="true">Demo</a>
+                    <a href="https://github.com/ramsaygonzalez/NoteTaker" class="btn btn-secondary btn-sm" role="button"
+                      aria-pressed="true">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/BurgerApp.PNG" alt="Homework 13: Burger App" class="thumbnail">
+              <div class="card-body">
+                <h3>HW 13: Eat-Da-Burger!</h3> Burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://morning-sierra-39351.herokuapp.com/" class="btn btn-primary btn-sm" role="button"
+                      aria-pressed="true">Demo</a>
+                    <a href="https://github.com/ramsaygonzalez/BurgerApp" class="btn btn-secondary btn-sm" role="button"
+                      aria-pressed="true">GitHub</a>
                   </div>
                 </div>
               </div>
@@ -88,7 +163,10 @@
           </div>
         </div>
       </div>
+    </div>
+
   </main>
+
 
   <footer class="footer"></footer>
 
